@@ -7,7 +7,7 @@ header {
     width: 100%;
 }
 
-img.headerbackground {
+.backgroundimage {
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ img.headerbackground {
 	top: 0px;
 }
 
-div.container {
+.container {
 	margin-left: 200px;
 	margin-right: 200px;
 	display: flex;
@@ -71,14 +71,14 @@ div.container {
 	top: 40%;
 }
 
-h1.header-title {
+.header-title {
 	font-family: Myriad Pro;
 	font-size: 4.4em;
 	color: white;
 	margin-bottom: 0px;
 }
 
-p.header-main-text {
+.header-main-text {
 	font-family: Georgia;
 	font-style: italic;
 	color: white;
@@ -126,6 +126,153 @@ p.header-main-text {
 	text-align: right;
 	margin-right: 57%;
 }
+
+.new-domain {
+	width: 100%;
+	height: 580px;
+	background-color: white;
+	position: relative;
+	top: -4px;
+}
+
+.new-domain-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 80px;
+	width: 910px;
+
+}
+
+.would-you h4 {
+	margin-top: 0px;
+	margin-bottom: 23px;
+	font-family: Lato;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.would-you p {
+	font-family: Montserrat ExtraLight;
+	color: #727272;
+	text-align: center;
+}
+
+.domain-name {
+	border: 0.5px solid #d9d9d9;
+	margin-top: 45px;
+}
+
+.domain-name-table {
+	height: 30px;
+	margin: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.domain-name-table tr td:first-child {
+	width: 55px;
+	color: #727272;
+	font-size: 1.1em;
+	font-family: Lato Light;
+}
+
+.domain-name-table tr td:nth-child(2) {
+	width: 730px;
+	border-left: 0.5px solid #d9d9d9;
+	padding-left: 10px;
+}
+
+.domain-name-table tr td:nth-child(3) {
+	width: 70px;
+	border-left: 0.5px solid #d9d9d9;
+	padding-left: 10px;
+}
+
+input[type="text"] {
+	border: none;
+	width: 100%;
+	height: 100%;
+	font-family: Lato Light;
+	color: #646464;
+	font-size: 1.1em;
+}
+
+#domain-zone {
+	border: none;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	color: #727272;
+	font-size: 1.3em;
+	font-family: Lato Light;
+}
+
+.domain-rate {
+	border: 0.5px solid #d9d9d9;
+	margin-top: 45px;
+	height: 155px;
+	padding: 20px;
+	font-family: Lato Light;
+	color: #727272;
+	font-size: 1.1em;
+}
+
+.domain-rate-table {
+	width: 870px;
+	height: 155px;
+	border-collapse: collapse;
+}
+
+.domain-rate-table td {
+	width: 25%;
+	height: 50%;
+	text-align: center;
+	border: 0.5px solid #d9d9d9;
+}
+
+.domain-rate-table tr:nth-child(1) td:nth-child(-n+4) {
+	border-top: none;
+}
+
+.domain-rate-table td:nth-child(1) {
+	border-left: none;
+}
+
+.domain-rate-table td:nth-child(4) {
+	border-right: none;
+}
+
+.domain-rate-table tr:nth-child(2) td {
+	border-bottom: none;
+}
+
+.packages {
+	height: 765px;
+}
+
+.packages-plan {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	top: -285px;
+}
+
+.packages-plan div {
+	display: block;
+	border: 1px solid black;
+	margin: 30px;
+	width: 255px;
+	height: 565px;
+	background-color: white;
+}
+
+
+
+
+
 
 
 
