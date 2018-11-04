@@ -130,12 +130,27 @@ a {
 	background-color: #21424a;
 	float: left;
     shape-outside: polygon(0% 0%, 100% 0%, 97% 100%, 0% 100%);
-    shape-margin: 50px;
+    /*shape-margin: 50px;*/
     clip-path: polygon(0% 0%, 100% 0%, 97% 100%, 0% 100%); 
 }
 
+.login:hover {
+	background-color: #97c9e9;
+	color: #0e2630;
+}
+
 .register {
-	width: 48.8%;
+	width: 51%;
+	shape-outside: polygon(3% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-left: -25px;
+    clip-path: polygon(3% 0%, 100% 0%, 100% 100%, 0% 100%); 
+	
+
+}
+
+.register:hover {
+	background-color: #7acaa2;
+	color: #083530;
 }
 
 .login h4, .register h4 {
@@ -378,6 +393,11 @@ input[type="text"] {
 	background: white;
 	font-family: Lato;
 	font-size: .9em;
+	cursor: pointer;
+}
+
+.package-table input[type="button"]:hover {
+	background-color: #d9d9d9;
 }
 
 .packages-plan div:nth-child(1),
@@ -435,7 +455,7 @@ section.about {
 	height: 100%;
 	margin-right: 12.2%;
 	margin-left: 12.2%;
-	border-top: 2px dotted #8b8b8b;
+	border-top: 2px dotted rgba(139, 139, 139, 0.5);
 	display: flex;
 	flex-direction: row;
 }
@@ -447,7 +467,7 @@ section.about {
 	font-size: 1.7em;
 	margin-top: auto;
 	margin-bottom: auto;
-	border-right: 2px dotted #8b8b8b;
+	border-right: 2px dotted rgba(139, 139, 139, 0.5);
 }
 
 .about-us-text b {
@@ -539,6 +559,7 @@ section.about {
 }
 
 .item {
+	position: relative;
 	text-align: center;
 	font-family: Lato Thin;
 	font-size: 1.4em;
@@ -547,6 +568,7 @@ section.about {
 }
 
 .item span {
+	display: block;
 	font-style: italic;
 	font-size: 1em;
 	color: #b8b8b8;
