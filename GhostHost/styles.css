@@ -560,16 +560,18 @@ section.about {
 }
 
 .functions-container {
+	width: 80%;
 	height: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .func-item {
+	margin-top: 30px;
 	width: 235px;
 	text-align: center;
 	font-family: Lato Thin;
