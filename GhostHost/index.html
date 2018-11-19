@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ghost Host Homepage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
+</head>
+
+<body>
+<!--THE BEGGINING OF HEADER & NAVIGATION SECTION-->
+    <header>
+        <div class="background">
+            <img src="pic/backgrounds/GhostHostHeaderBackground.jpeg" class="backgroundimage">
+            <div class="header-text"><h1 class="header-title">HELLO!</h1>
+			<p class="header-main-text">We love our work...<br>And We're taking it seriously...</p></div>
+        </div>
+        <div class="top">
+            <div class="container">
+                <a href=""><div class="logo"><img src="pic/GhostHostLogo.png" alt="GhostHostLogo" class="logo-pic"></div></a>
+                <div class="small-screen-menu">
+                	<img src="pic/smallScreenMenuButton.png" class="menu-button">
+                	<div class="wrapped-menu-container">              <!--HIDDEN MENU, VISIBLE ONLY ON MOBILE DEVICES-->
+                		<div><a href="">Home</a></div>
+                		<div><a href="">Domain</a></div>
+                		<div><a href="">Hosting</a></div>
+                		<div><a href="">Clients</a></div>
+               			<div><a href="">Blog</a></div>
+                		<div><a href="">Support</a></div>
+                	</div>
+            	</div>
+                <div class="top-menu-container">                      <!--MENU VISIBLE ON TABLETS AND PC'S-->
+                	<div><a href="">Home</a></div>
+                	<div><a href="">Domain</a></div>
+                	<div><a href="">Hosting</a></div>
+                	<div><a href="">Clients</a></div>
+               		<div><a href="">Blog</a></div>
+                	<div><a href="">Support</a></div>
+            	</div>
+            </div>
+        </div>
+    </header>
+<!--THE LOGIN & REGISTER SECTION-->
+    <section class="sign-in">
+    	<a href="" class="login"><div>
+    		<h4>LOGIN</h4>
+    	</div></a>
+    	<a href="" class="register"><div>
+    		<h4>REGISTER</h4>
+       	</div></a>
+    </section>
+<!--DOMAIN NAME CHOICE SECTION-->
+    <section class="new-domain">
+    <div class="new-domain-container">
+    	<div class="would-you">
+    		<h4>Would you like to buy a new domain ?</h4>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+    	</div>
+    	<div class="domain-name">
+    		<table class="domain-name-table">
+                <tr>
+                    <td>www.</td>
+                    <td><input type="text" name="domain-name" id="domain-name" minlength="2" maxlength="255" placeholder="What do you want?"></td>
+                    <td>
+                        <select id="domain-zone">
+                            <option>.com</option>
+                            <option>.net</option>
+                        </select>
+                    </td>
+                </tr>      
+            </table>
+    	</div>
+    	<div class="domain-rate">
+    		<table class="domain-rate-table">
+                <tr>
+                    <td>.COM</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr> 
+                <tr>
+                    <td>.NET</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr>    
+            </table>
+    	</div>
+    </div>
+    </section>
+<!--PACKAGE SELECTION SECTION-->
+    <section class="packages">
+         <div class="packages-background">
+            <img src="pic/backgrounds/packagesBackground.jpg" class="backgroundimage">
+        </div>
+        <div class="packages-whitespace"></div>
+        <div class="packages-plan">
+            <div>
+                <table class="package-table">
+                    <thead>
+                    <tr>
+                        <td colspan="2">
+                            <img src="pic/packages/basicPackage.png">
+                            <h3>BASIC PACKAGE</h3>
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Disk Space (GB)</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Subdomains</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Transfer (GB)</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Data bases</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Dashboards</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Control Panel & FTP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Free Support</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <h2><sup>$</sup><span class="price">15</span><sub>/Mo</sub></h2>
+                                <a href=""><input type="button" name="select-plan" id="select-plan" value="SELECT PLAN"></a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <table class="package-table">
+                    <thead>
+                    <tr>
+                        <td colspan="2">
+                            <img src="pic/packages/normalPackage.png">
+                            <h3>NORMAL PACKAGE</h3>
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Disk Space (GB)</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Subdomains</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Transfer (GB)</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Data bases</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Dashboards</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Control Panel & FTP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Free Support</td>
+                    </tr>
+                </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <h2><sup>$</sup><span class="price">30</span><sub>/Mo</sub></h2>
+                                <a href=""><input type="button" name="select-plan" id="select-plan" value="SELECT PLAN"></a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <table class="package-table">
+                    <thead>
+                    <tr>
+                        <td colspan="2">
+                            <img src="pic/packages/bigPackage.png">
+                            <h3>BIG PACKAGE</h3>
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Disk Space (GB)</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Subdomains</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Transfer (GB)</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Data bases</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Dashboards</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Control Panel & FTP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Free Support</td>
+                    </tr>
+                </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <h2><sup>$</sup><span class="price">40</span><sub>/Mo</sub></h2>
+                                <a href=""><input type="button" name="select-plan" id="select-plan" value="SELECT PLAN"></a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <table class="package-table">
+                    <thead>
+                    <tr>
+                        <td colspan="2">
+                            <img src="pic/packages/biggestPackage.png">
+                            <h3>BIGGEST PACKAGE</h3>
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Disk Space (GB)</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Subdomains</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Transfer (GB)</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>Data bases</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Dashboards</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Control Panel & FTP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Free Support</td>
+                    </tr>
+                </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                <h2><sup>$</sup><span class="price">70</span><sub>/Mo</sub></h2>
+                                <a href=""><input type="button" name="select-plan" id="select-plan" value="SELECT PLAN"></a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+<!--ABOUT US SECTION-->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-us-text">
+                <h2><b>About</b> Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
+            </div>
+            <div class="our-team">
+                <div class="team-member">
+                    <div class="member-photo"><img src="pic/doe/JonnyDoe.png"></div>
+                    <div class="member-name">Jonny Doe<br><span>Designer</span></div>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo"><img src="pic/doe/JohnDoe.png"></div>
+                    <div class="member-name">John Doe<br><span>Designer</span></div>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo"><img src="pic/doe/JohnathanDoe.png"></div>
+                    <div class="member-name">Johnathan Doe<br><span>Designer</span></div>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--COMMENTS SECTION (WITH ANIMATION PROBABLY IDK YET I STARTED MAKING THIS SECTION HALF AN HOUR AGO AND JUST AFTER THE START WENT TO WATCH YOUTUBE I'M SO SO SO SORRY I CAN FEEL THE COMING OF MARKUP TASK DEADLINE BY MY SKIN LITERALLY BUT I'M JUST SITTING IN MY ROOM DOIND STUPID THINGS LIKE WRITING THIS TEXT OKAY I NEED TO MAKE MYSELF DO WHAT I NEED TO DO BYYYYYEEEEEE)-->
+    <section class="comments">
+        <div class="comments-container slider">
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<br><span>John Doe</span></div>
+            <div class="item">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br><span>Jonny Doe</span></div>
+            <div class="item">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><span>Johnathan Doe</span></div>
+        </div>
+        <div class="comments-background"><img src="pic/backgrounds/commentsBackground.jpg" class="backgroundimage"></div>
+    </section>
+<!--FUNCTIONS SECTION.............-->
+    <section class="functions"> 
+        <div class="functions-container">
+            <div class="func-item">
+                <img src="pic/functions/fastServers.png">
+                <h4>Fast Servers</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+            <div class="func-item">
+                <img src="pic/functions/cloudServers.png">
+                <h4>Cloud Servers</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+            <div class="func-item">
+                <img src="pic/functions/domainTransfer.png">
+                <h4>Domain Transfer</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+            <div class="func-item">
+                <img src="pic/functions/liveSupport.png">
+                <h4>Live Support</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+            </div>
+        </div>
+    </section>
+<!--ALMOST DONE YAY-->
+    <footer>
+        <div class="footer-navig footer-style">
+            <div class="logo"><img src="pic/GhostHostLogo.png" alt="GhostHostLogo" class="logo-pic"></div>
+            <div class="top-menu-container footer-menu">
+                <div><a href="">HOME</a></div>
+                <div><a href="">ABOUT US</a></div>
+                <div><a href="">BLOG</a></div>
+                <div><a href="">POLICY</a></div>
+                <div><a href="">CONTACT</a></div>
+            </div>
+        </div>
+        <div class="footer-container footer-style">
+            <div class="design-by">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<br><span>Design by <b>Mert Can Eyrlyer</b></span></div>
+            <div class="nav-list">
+                <ul>
+                    <a href=""><li>Support</li></a>
+                    <a href=""><li>Account</li></a>
+                    <a href=""><li>Product Catalog</li></a>
+                    <a href=""><li>Shortcodes</li></a>
+                    <a href=""><li>Site Map</li></a>
+                    <a href=""><li>Whois Search</li></a>
+                    <a href=""><li>Web Mail</li></a>
+                    <a href=""><li>Find Domain</li></a>
+                </ul>
+            </div>
+            <div class="contacts">
+                <i class="fas fa-phone"></i> 0000-0000-0000<br>
+                <i class="fas fa-envelope"></i> infoteam@ghosthost.com<br>
+                Lorem Ipsum Street, Lorem Avenue,<br>
+                Lorem Ipsum
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>  
+    <script src="script.js"></script>
+</body>
